@@ -15,6 +15,7 @@ public class Bicycle {
 		public void speedup(int increment)
 	{
 		speed+=increment;
+		
 	}
 
 		@Override
