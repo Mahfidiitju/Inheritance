@@ -1,18 +1,18 @@
 package iit.ju.inheritance;
 
-import iit.oop.model.Circle;
-import iit.oop.model.Traiangle;
 
 public class OOPinheritancePractice {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Circle c1=new Circle();
-		System.out.println(c1.area(50.5));
 		
-		Traiangle T1=new Traiangle();
+//		
+//		Teacher t1=new Teacher();
+//		t1.name="Antor";
+//		t1.age=25;
+//		t1.display();
 		
-		System.out.println(T1.area());
+		Person p1=new Person("Antor",25);
+		p1.print();
 	}
 
 }
